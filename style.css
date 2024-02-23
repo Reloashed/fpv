@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    margin: 1rem 1.5rem 1rem 1.5rem;
+    background-color: aliceblue;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    text-align: justify;
+    transition: 0.5s;
+}
+
+nav a:hover {
+    scale: 1.1;
+    background-color: rgb(187, 221, 250);
+}
+
+.background-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-video video {
+    border-radius: 1rem;
+    box-shadow: 0.7rem 0.7rem 0.7rem rgb(167, 167, 167);
+}
