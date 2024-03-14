@@ -9,7 +9,8 @@
 <body>
     <header>
         <nav>
-            <a href="videos.html">Videos</a>
+            <a href="videos.html" target="">Videos</a>
+            <button onclick="openVideos()">Videos</button>
             <a href="about_me.html">About Me</a>
         </nav>
     </header>
@@ -18,5 +19,11 @@
             <video src="Videos/fpv-flying.mp4" autoplay width="1000">flying with the fpv drone around trees</video>
         </div>
     </main>
+
+    <script>
+        function openVideos(){
+            document.open("videos.html", _blank);
+        }
+    </script>
 </body>
 </html>

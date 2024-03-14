@@ -12,7 +12,7 @@ nav {
     align-items: center;
 }
 
-nav a {
+nav button {
     margin: 1rem 1.5rem 1rem 1.5rem;
     background-color: aliceblue;
     padding: 1rem;
@@ -22,7 +22,7 @@ nav a {
     transition: 0.5s;
 }
 
-nav a:hover {
+nav button:hover {
     scale: 1.1;
     background-color: rgb(187, 221, 250);
 }
